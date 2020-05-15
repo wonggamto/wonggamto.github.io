@@ -6,10 +6,19 @@
     <description>Recent content in Posts on 薯条君的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 16 May 2020 03:28:02 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 03:31:22 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/posts/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hugo插入图片的方法</title>
+      <link>http://example.org/posts/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Sat, 16 May 2020 03:31:22 +0800</pubDate>
+      
+      <guid>http://example.org/posts/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
+      <description>方法1  打开 sm.ms 网站，将图片上传上去，得到图片的 url。 在文章里使用 语法即可显示图片  方法2  将图片文件 1.png 存放到 static 目录里，得到 static/1.png 在博客 Markdown 里写 就能看到 static/1.png 对应的图片了 如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 /images 即可，比如 i. 将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png ii. 在博客里写 即可 另外，你还可以谷歌一下「Hugo 插入图片」找找答案  </description>
+    </item>
     
     <item>
       <title>第二篇博客</title>
