@@ -26,22 +26,22 @@
     
     
     <meta property="og:title" content="Hugo插入图片的方法" />
-<meta property="og:description" content="方法1  打开 sm.ms 网站，将图片上传上去，得到图片的 url。 在文章里使用 语法即可显示图片  方法2  将图片文件 1.png 存放到 static 目录里，得到 static/1.png 在博客 Markdown 里写 就能看到 static/1.png 对应的图片了 如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 /images 即可，比如 i. 将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png ii. 在博客里写 即可 另外，你还可以谷歌一下「Hugo 插入图片」找找答案  " />
+<meta property="og:description" content="方法1  打开 sm.ms 网站，将图片上传上去，得到图片的 url。 在文章里使用 语法即可显示图片  方法2  将图片文件 1.png 存放到 static 目录里，得到 static/1.png 在博客 Markdown 里写 就能看到 static/1.png 对应的图片了 如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 /images 即可，比如  将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png 在博客里写 即可 另外，你还可以谷歌一下「Hugo 插入图片」找找答案    " />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="http://example.org/posts/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/" />
 <meta property="article:published_time" content="2020-05-16T03:31:22+08:00" />
 <meta property="article:modified_time" content="2020-05-16T03:31:22+08:00" />
 <meta itemprop="name" content="Hugo插入图片的方法">
-<meta itemprop="description" content="方法1  打开 sm.ms 网站，将图片上传上去，得到图片的 url。 在文章里使用 语法即可显示图片  方法2  将图片文件 1.png 存放到 static 目录里，得到 static/1.png 在博客 Markdown 里写 就能看到 static/1.png 对应的图片了 如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 /images 即可，比如 i. 将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png ii. 在博客里写 即可 另外，你还可以谷歌一下「Hugo 插入图片」找找答案  ">
+<meta itemprop="description" content="方法1  打开 sm.ms 网站，将图片上传上去，得到图片的 url。 在文章里使用 语法即可显示图片  方法2  将图片文件 1.png 存放到 static 目录里，得到 static/1.png 在博客 Markdown 里写 就能看到 static/1.png 对应的图片了 如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 /images 即可，比如  将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png 在博客里写 即可 另外，你还可以谷歌一下「Hugo 插入图片」找找答案    ">
 <meta itemprop="datePublished" content="2020-05-16T03:31:22&#43;08:00" />
 <meta itemprop="dateModified" content="2020-05-16T03:31:22&#43;08:00" />
-<meta itemprop="wordCount" content="39">
+<meta itemprop="wordCount" content="37">
 
 
 
 <meta itemprop="keywords" content="" /><meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="Hugo插入图片的方法"/>
-<meta name="twitter:description" content="方法1  打开 sm.ms 网站，将图片上传上去，得到图片的 url。 在文章里使用 语法即可显示图片  方法2  将图片文件 1.png 存放到 static 目录里，得到 static/1.png 在博客 Markdown 里写 就能看到 static/1.png 对应的图片了 如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 /images 即可，比如 i. 将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png ii. 在博客里写 即可 另外，你还可以谷歌一下「Hugo 插入图片」找找答案  "/>
+<meta name="twitter:description" content="方法1  打开 sm.ms 网站，将图片上传上去，得到图片的 url。 在文章里使用 语法即可显示图片  方法2  将图片文件 1.png 存放到 static 目录里，得到 static/1.png 在博客 Markdown 里写 就能看到 static/1.png 对应的图片了 如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 /images 即可，比如  将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png 在博客里写 即可 另外，你还可以谷歌一下「Hugo 插入图片」找找答案    "/>
 
   </head>
 
@@ -143,9 +143,12 @@
 <li>将图片文件 1.png 存放到 static 目录里，得到 static/1.png</li>
 <li>在博客 Markdown 里写 <img src="/1.png" alt=""> 就能看到 static/1.png 对应的图片了</li>
 <li>如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 /images 即可，比如
-i. 将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png
-ii. 在博客里写 <img src="/images/2.png" alt="">即可
+<ol>
+<li>将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png</li>
+<li>在博客里写 <img src="/images/2.png" alt="">即可
 另外，你还可以谷歌一下「Hugo 插入图片」找找答案</li>
+</ol>
+</li>
 </ol>
 <ul class="pa0">
   

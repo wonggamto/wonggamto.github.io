@@ -6,10 +6,30 @@
     <description>Recent content on 薯条君的博客</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-Hans</language>
-    <lastBuildDate>Sat, 16 May 2020 03:31:22 +0800</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2020 15:42:09 +0800</lastBuildDate>
     
 	<atom:link href="http://example.org/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>在github上创建博客</title>
+      <link>http://example.org/posts/%E5%9C%A8github%E4%B8%8A%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</link>
+      <pubDate>Sat, 16 May 2020 15:42:09 +0800</pubDate>
+      
+      <guid>http://example.org/posts/%E5%9C%A8github%E4%B8%8A%E5%88%9B%E5%BB%BA%E5%8D%9A%E5%AE%A2/</guid>
+      <description>github上搭建自己的blog 安装 由于我用的是macos，所以先介绍mac的安装方式：   终端输入下面两条命令:
+ brew install hugo  这个时候会进入安装
+hugo version  如果上面的命令能返回一个版本号，则表示安装成功
+  配置  打开hugo的官网,然后点击Quick Start   Quick Start会自动识别你的系统然后给出对应的操作提示
+  终端进入 github.io-generator目录,输入
+hugo new posts/my-first-post.md
+  其中my-first-post指的是你的博客文章的名字，例如:
+ 在vscode的左侧边栏可以看到这时候博客已经创建成功了，如图:
+仔细观察，draft的参数是true，代表当前是草稿模式，就是说发布以后别人是看不见的，需要在文章写完以后改成false
+  写完内容以后，输入命令:
+hugo -D
+  </description>
+    </item>
     
     <item>
       <title>Hugo插入图片的方法</title>
@@ -17,7 +37,7 @@
       <pubDate>Sat, 16 May 2020 03:31:22 +0800</pubDate>
       
       <guid>http://example.org/posts/hugo%E6%8F%92%E5%85%A5%E5%9B%BE%E7%89%87%E7%9A%84%E6%96%B9%E6%B3%95/</guid>
-      <description>方法1  打开 sm.ms 网站，将图片上传上去，得到图片的 url。 在文章里使用 语法即可显示图片  方法2  将图片文件 1.png 存放到 static 目录里，得到 static/1.png 在博客 Markdown 里写 就能看到 static/1.png 对应的图片了 如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 /images 即可，比如 i. 将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png ii. 在博客里写 即可 另外，你还可以谷歌一下「Hugo 插入图片」找找答案  </description>
+      <description>方法1  打开 sm.ms 网站，将图片上传上去，得到图片的 url。 在文章里使用 语法即可显示图片  方法2  将图片文件 1.png 存放到 static 目录里，得到 static/1.png 在博客 Markdown 里写 就能看到 static/1.png 对应的图片了 如果你想在 static 里创建 images 目录，直接创建就好，对应的图片前面加上 /images 即可，比如  将图片文件 2.png 放到 static/images 目录里，得到 static/images/2.png 在博客里写 即可 另外，你还可以谷歌一下「Hugo 插入图片」找找答案    </description>
     </item>
     
     <item>
@@ -26,7 +46,7 @@
       <pubDate>Sat, 16 May 2020 03:28:02 +0800</pubDate>
       
       <guid>http://example.org/posts/%E7%AC%AC%E4%BA%8C%E7%AF%87%E5%8D%9A%E5%AE%A2/</guid>
-      <description>第二篇博客 test</description>
+      <description>第二篇博客 如何创建第二篇博客  在 xxx.github.io-creator 目录（注意确保自己不在 public 目录）里运行 hugo new posts/第二篇博客.md 运行 code posts/第二篇博客.md 对文件进行编辑，注意不要把文件原本的内容给删了，直接在后面另起一行写新内容。 运行 hugo -D，得到新的 public 目录 进入 public 目录，执行一下操作  git add . 注意有一个点 git commit -m 更新 git push -f 其中 -f 是强制上传的意思   等待几分钟后，你的博客就会出现第二篇文章了！  </description>
     </item>
     
     <item>
